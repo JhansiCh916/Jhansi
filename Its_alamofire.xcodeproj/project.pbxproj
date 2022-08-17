@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FE685578BF6E60DD47AA7CD /* Pods_Its_alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7D4D27A537BBA181A0B2A5 /* Pods_Its_alamofire.framework */; };
 		E6E4015028ACF67D003368F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4014F28ACF67D003368F8 /* AppDelegate.swift */; };
 		E6E4015228ACF67D003368F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4015128ACF67D003368F8 /* SceneDelegate.swift */; };
 		E6E4015428ACF67D003368F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4015328ACF67D003368F8 /* ViewController.swift */; };
@@ -14,9 +15,19 @@
 		E6E4015A28ACF67D003368F8 /* Its_alamofire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6E4015828ACF67D003368F8 /* Its_alamofire.xcdatamodeld */; };
 		E6E4015C28ACF67D003368F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E4015B28ACF67D003368F8 /* Assets.xcassets */; };
 		E6E4015F28ACF67D003368F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E4015D28ACF67D003368F8 /* LaunchScreen.storyboard */; };
+		E6E4016728ACF68D003368F8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4016628ACF68D003368F8 /* Network.swift */; };
+		E6E4016928ACF8A2003368F8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4016828ACF8A2003368F8 /* Model.swift */; };
+		E6E4016B28AD0341003368F8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4016A28AD0341003368F8 /* ViewModel.swift */; };
+		E6E4016D28AD0638003368F8 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4016C28AD0638003368F8 /* Observable.swift */; };
+		E6E4016F28AD0E58003368F8 /* PostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4016E28AD0E58003368F8 /* PostsController.swift */; };
+		E6E4017128AD128B003368F8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4017028AD128A003368F8 /* TableViewCell.swift */; };
+		E6E4017328AD194B003368F8 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4017228AD194B003368F8 /* TableViewCellViewModel.swift */; };
+		E6E4017528AD19BE003368F8 /* RowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4017428AD19BE003368F8 /* RowViewModel.swift */; };
+		E6E4017728AD1EF1003368F8 /* CellConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4017628AD1EF1003368F8 /* CellConfigurable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D7D4D27A537BBA181A0B2A5 /* Pods_Its_alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Its_alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E4014C28ACF67D003368F8 /* Its_alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Its_alamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E4014F28ACF67D003368F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6E4015128ACF67D003368F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +37,17 @@
 		E6E4015B28ACF67D003368F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6E4015E28ACF67D003368F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6E4016028ACF67D003368F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E4016628ACF68D003368F8 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E6E4016828ACF8A2003368F8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E6E4016A28AD0341003368F8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E6E4016C28AD0638003368F8 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		E6E4016E28AD0E58003368F8 /* PostsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsController.swift; sourceTree = "<group>"; };
+		E6E4017028AD128A003368F8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E6E4017228AD194B003368F8 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
+		E6E4017428AD19BE003368F8 /* RowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewModel.swift; sourceTree = "<group>"; };
+		E6E4017628AD1EF1003368F8 /* CellConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfigurable.swift; sourceTree = "<group>"; };
+		F890D24DB9CD5FA4823AB9A6 /* Pods-Its_alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Its_alamofire.release.xcconfig"; path = "Target Support Files/Pods-Its_alamofire/Pods-Its_alamofire.release.xcconfig"; sourceTree = "<group>"; };
+		F8C395C8B6EC02E54A99D603 /* Pods-Its_alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Its_alamofire.debug.xcconfig"; path = "Target Support Files/Pods-Its_alamofire/Pods-Its_alamofire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE685578BF6E60DD47AA7CD /* Pods_Its_alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41BA80589AFC718E4F7A8901 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8C395C8B6EC02E54A99D603 /* Pods-Its_alamofire.debug.xcconfig */,
+				F890D24DB9CD5FA4823AB9A6 /* Pods-Its_alamofire.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D58AD01341A84641CD6F9E03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D7D4D27A537BBA181A0B2A5 /* Pods_Its_alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E6E4014328ACF67C003368F8 = {
 			isa = PBXGroup;
 			children = (
 				E6E4014E28ACF67D003368F8 /* Its_alamofire */,
 				E6E4014D28ACF67D003368F8 /* Products */,
+				41BA80589AFC718E4F7A8901 /* Pods */,
+				D58AD01341A84641CD6F9E03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +102,16 @@
 			children = (
 				E6E4014F28ACF67D003368F8 /* AppDelegate.swift */,
 				E6E4015128ACF67D003368F8 /* SceneDelegate.swift */,
+				E6E4016628ACF68D003368F8 /* Network.swift */,
+				E6E4016828ACF8A2003368F8 /* Model.swift */,
+				E6E4016A28AD0341003368F8 /* ViewModel.swift */,
+				E6E4016E28AD0E58003368F8 /* PostsController.swift */,
 				E6E4015328ACF67D003368F8 /* ViewController.swift */,
+				E6E4017028AD128A003368F8 /* TableViewCell.swift */,
+				E6E4017228AD194B003368F8 /* TableViewCellViewModel.swift */,
+				E6E4017428AD19BE003368F8 /* RowViewModel.swift */,
+				E6E4017628AD1EF1003368F8 /* CellConfigurable.swift */,
+				E6E4016C28AD0638003368F8 /* Observable.swift */,
 				E6E4015528ACF67D003368F8 /* Main.storyboard */,
 				E6E4015B28ACF67D003368F8 /* Assets.xcassets */,
 				E6E4015D28ACF67D003368F8 /* LaunchScreen.storyboard */,
@@ -77,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6E4016328ACF67D003368F8 /* Build configuration list for PBXNativeTarget "Its_alamofire" */;
 			buildPhases = (
+				B8BA370A60C437C10A6C6544 /* [CP] Check Pods Manifest.lock */,
 				E6E4014828ACF67D003368F8 /* Sources */,
 				E6E4014928ACF67D003368F8 /* Frameworks */,
 				E6E4014A28ACF67D003368F8 /* Resources */,
+				B1E2FABA007DBCD593550118 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +189,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B1E2FABA007DBCD593550118 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Its_alamofire/Pods-Its_alamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Its_alamofire/Pods-Its_alamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Its_alamofire/Pods-Its_alamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8BA370A60C437C10A6C6544 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Its_alamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6E4014828ACF67D003368F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E4016D28AD0638003368F8 /* Observable.swift in Sources */,
+				E6E4016728ACF68D003368F8 /* Network.swift in Sources */,
 				E6E4015428ACF67D003368F8 /* ViewController.swift in Sources */,
 				E6E4015A28ACF67D003368F8 /* Its_alamofire.xcdatamodeld in Sources */,
+				E6E4016F28AD0E58003368F8 /* PostsController.swift in Sources */,
+				E6E4017528AD19BE003368F8 /* RowViewModel.swift in Sources */,
+				E6E4017728AD1EF1003368F8 /* CellConfigurable.swift in Sources */,
+				E6E4017128AD128B003368F8 /* TableViewCell.swift in Sources */,
+				E6E4016928ACF8A2003368F8 /* Model.swift in Sources */,
+				E6E4017328AD194B003368F8 /* TableViewCellViewModel.swift in Sources */,
 				E6E4015028ACF67D003368F8 /* AppDelegate.swift in Sources */,
 				E6E4015228ACF67D003368F8 /* SceneDelegate.swift in Sources */,
+				E6E4016B28AD0341003368F8 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +390,7 @@
 		};
 		E6E4016428ACF67D003368F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C395C8B6EC02E54A99D603 /* Pods-Its_alamofire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +419,7 @@
 		};
 		E6E4016528ACF67D003368F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F890D24DB9CD5FA4823AB9A6 /* Pods-Its_alamofire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
