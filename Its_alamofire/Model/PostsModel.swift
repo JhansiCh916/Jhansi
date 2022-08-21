@@ -6,11 +6,13 @@
 //
 
 import Foundation
+
 struct GetPostsModel:Codable{
     let status ,message : String?
     let data : [GetPostData]
     let errorCode : String?
 }
+
 struct GetPostData : Codable{
     let postId : Int?
     let userName : String?

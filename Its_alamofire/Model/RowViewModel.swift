@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 protocol RowViewModel {}
 
 protocol ViewModelPressible {

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2FE685578BF6E60DD47AA7CD /* Pods_Its_alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7D4D27A537BBA181A0B2A5 /* Pods_Its_alamofire.framework */; };
+		E695CEDD28B207CF00C2CB62 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E695CEDC28B207CF00C2CB62 /* FriendsViewController.swift */; };
+		E695CEDF28B2083C00C2CB62 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E695CEDE28B2083C00C2CB62 /* SettingsViewController.swift */; };
 		E6E4015028ACF67D003368F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4014F28ACF67D003368F8 /* AppDelegate.swift */; };
 		E6E4015228ACF67D003368F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4015128ACF67D003368F8 /* SceneDelegate.swift */; };
 		E6E4015428ACF67D003368F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4015328ACF67D003368F8 /* ViewController.swift */; };
@@ -16,7 +18,7 @@
 		E6E4015C28ACF67D003368F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E4015B28ACF67D003368F8 /* Assets.xcassets */; };
 		E6E4015F28ACF67D003368F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E4015D28ACF67D003368F8 /* LaunchScreen.storyboard */; };
 		E6E4016728ACF68D003368F8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4016628ACF68D003368F8 /* Network.swift */; };
-		E6E4016928ACF8A2003368F8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4016828ACF8A2003368F8 /* Model.swift */; };
+		E6E4016928ACF8A2003368F8 /* PostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4016828ACF8A2003368F8 /* PostsModel.swift */; };
 		E6E4016B28AD0341003368F8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4016A28AD0341003368F8 /* ViewModel.swift */; };
 		E6E4016D28AD0638003368F8 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4016C28AD0638003368F8 /* Observable.swift */; };
 		E6E4016F28AD0E58003368F8 /* PostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4016E28AD0E58003368F8 /* PostsController.swift */; };
@@ -24,10 +26,18 @@
 		E6E4017328AD194B003368F8 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4017228AD194B003368F8 /* TableViewCellViewModel.swift */; };
 		E6E4017528AD19BE003368F8 /* RowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4017428AD19BE003368F8 /* RowViewModel.swift */; };
 		E6E4017728AD1EF1003368F8 /* CellConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4017628AD1EF1003368F8 /* CellConfigurable.swift */; };
+		E6E4017B28AE06C0003368F8 /* Login Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4017A28AE06C0003368F8 /* Login Model.swift */; };
+		E6E4017D28AE093B003368F8 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4017C28AE093B003368F8 /* LoginViewModel.swift */; };
+		E6E4017F28AE0BB0003368F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4017E28AE0BB0003368F8 /* LoginViewController.swift */; };
+		E6E4018128AE151E003368F8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4018028AE151E003368F8 /* TabBarController.swift */; };
+		E6E4018828AE386E003368F8 /* UpdateLikesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4018728AE386E003368F8 /* UpdateLikesViewModel.swift */; };
+		E6E4018A28AE43AA003368F8 /* UpdateLikesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E4018928AE43AA003368F8 /* UpdateLikesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D7D4D27A537BBA181A0B2A5 /* Pods_Its_alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Its_alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E695CEDC28B207CF00C2CB62 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		E695CEDE28B2083C00C2CB62 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E6E4014C28ACF67D003368F8 /* Its_alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Its_alamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E4014F28ACF67D003368F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6E4015128ACF67D003368F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +48,7 @@
 		E6E4015E28ACF67D003368F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6E4016028ACF67D003368F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6E4016628ACF68D003368F8 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		E6E4016828ACF8A2003368F8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E6E4016828ACF8A2003368F8 /* PostsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsModel.swift; sourceTree = "<group>"; };
 		E6E4016A28AD0341003368F8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E6E4016C28AD0638003368F8 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		E6E4016E28AD0E58003368F8 /* PostsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsController.swift; sourceTree = "<group>"; };
@@ -46,6 +56,12 @@
 		E6E4017228AD194B003368F8 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
 		E6E4017428AD19BE003368F8 /* RowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewModel.swift; sourceTree = "<group>"; };
 		E6E4017628AD1EF1003368F8 /* CellConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfigurable.swift; sourceTree = "<group>"; };
+		E6E4017A28AE06C0003368F8 /* Login Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login Model.swift"; sourceTree = "<group>"; };
+		E6E4017C28AE093B003368F8 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E6E4017E28AE0BB0003368F8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E6E4018028AE151E003368F8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E6E4018728AE386E003368F8 /* UpdateLikesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLikesViewModel.swift; sourceTree = "<group>"; };
+		E6E4018928AE43AA003368F8 /* UpdateLikesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLikesModel.swift; sourceTree = "<group>"; };
 		F890D24DB9CD5FA4823AB9A6 /* Pods-Its_alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Its_alamofire.release.xcconfig"; path = "Target Support Files/Pods-Its_alamofire/Pods-Its_alamofire.release.xcconfig"; sourceTree = "<group>"; };
 		F8C395C8B6EC02E54A99D603 /* Pods-Its_alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Its_alamofire.debug.xcconfig"; path = "Target Support Files/Pods-Its_alamofire/Pods-Its_alamofire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +95,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E695CEE028B2207F00C2CB62 /* UpdateLikes */ = {
+			isa = PBXGroup;
+			children = (
+				E6E4018728AE386E003368F8 /* UpdateLikesViewModel.swift */,
+			);
+			path = UpdateLikes;
+			sourceTree = "<group>";
+		};
+		E695CEE128B220AA00C2CB62 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				E6E4017C28AE093B003368F8 /* LoginViewModel.swift */,
+				E6E4017E28AE0BB0003368F8 /* LoginViewController.swift */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		E695CEE228B220F900C2CB62 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E6E4018528AE154A003368F8 /* Controllers */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E695CEE328B2215500C2CB62 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				E6E4016E28AD0E58003368F8 /* PostsController.swift */,
+				E6E4016A28AD0341003368F8 /* ViewModel.swift */,
+				E6E4015328ACF67D003368F8 /* ViewController.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		E695CEE428B2219200C2CB62 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E6E4016628ACF68D003368F8 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		E6E4014328ACF67C003368F8 = {
 			isa = PBXGroup;
 			children = (
@@ -102,14 +161,9 @@
 			children = (
 				E6E4014F28ACF67D003368F8 /* AppDelegate.swift */,
 				E6E4015128ACF67D003368F8 /* SceneDelegate.swift */,
-				E6E4016628ACF68D003368F8 /* Network.swift */,
-				E6E4016828ACF8A2003368F8 /* Model.swift */,
-				E6E4016A28AD0341003368F8 /* ViewModel.swift */,
-				E6E4016E28AD0E58003368F8 /* PostsController.swift */,
-				E6E4015328ACF67D003368F8 /* ViewController.swift */,
-				E6E4017028AD128A003368F8 /* TableViewCell.swift */,
-				E6E4017228AD194B003368F8 /* TableViewCellViewModel.swift */,
-				E6E4017428AD19BE003368F8 /* RowViewModel.swift */,
+				E695CEE228B220F900C2CB62 /* Modules */,
+				E6E4018228AE152A003368F8 /* Model */,
+				E695CEE428B2219200C2CB62 /* Network */,
 				E6E4017628AD1EF1003368F8 /* CellConfigurable.swift */,
 				E6E4016C28AD0638003368F8 /* Observable.swift */,
 				E6E4015528ACF67D003368F8 /* Main.storyboard */,
@@ -119,6 +173,40 @@
 				E6E4015828ACF67D003368F8 /* Its_alamofire.xcdatamodeld */,
 			);
 			path = Its_alamofire;
+			sourceTree = "<group>";
+		};
+		E6E4018228AE152A003368F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6E4016828ACF8A2003368F8 /* PostsModel.swift */,
+				E6E4018928AE43AA003368F8 /* UpdateLikesModel.swift */,
+				E6E4017A28AE06C0003368F8 /* Login Model.swift */,
+				E6E4017428AD19BE003368F8 /* RowViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6E4018528AE154A003368F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E695CEE128B220AA00C2CB62 /* LoginPage */,
+				E695CEE328B2215500C2CB62 /* HomePage */,
+				E6E4018628AE15A7003368F8 /* Cells */,
+				E6E4018028AE151E003368F8 /* TabBarController.swift */,
+				E695CEDC28B207CF00C2CB62 /* FriendsViewController.swift */,
+				E695CEDE28B2083C00C2CB62 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E6E4018628AE15A7003368F8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E6E4017028AD128A003368F8 /* TableViewCell.swift */,
+				E6E4017228AD194B003368F8 /* TableViewCellViewModel.swift */,
+				E695CEE028B2207F00C2CB62 /* UpdateLikes */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,19 +324,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E4018828AE386E003368F8 /* UpdateLikesViewModel.swift in Sources */,
 				E6E4016D28AD0638003368F8 /* Observable.swift in Sources */,
+				E695CEDF28B2083C00C2CB62 /* SettingsViewController.swift in Sources */,
 				E6E4016728ACF68D003368F8 /* Network.swift in Sources */,
 				E6E4015428ACF67D003368F8 /* ViewController.swift in Sources */,
 				E6E4015A28ACF67D003368F8 /* Its_alamofire.xcdatamodeld in Sources */,
+				E6E4017B28AE06C0003368F8 /* Login Model.swift in Sources */,
 				E6E4016F28AD0E58003368F8 /* PostsController.swift in Sources */,
+				E6E4018128AE151E003368F8 /* TabBarController.swift in Sources */,
 				E6E4017528AD19BE003368F8 /* RowViewModel.swift in Sources */,
 				E6E4017728AD1EF1003368F8 /* CellConfigurable.swift in Sources */,
+				E6E4017D28AE093B003368F8 /* LoginViewModel.swift in Sources */,
 				E6E4017128AD128B003368F8 /* TableViewCell.swift in Sources */,
-				E6E4016928ACF8A2003368F8 /* Model.swift in Sources */,
+				E6E4016928ACF8A2003368F8 /* PostsModel.swift in Sources */,
 				E6E4017328AD194B003368F8 /* TableViewCellViewModel.swift in Sources */,
+				E6E4017F28AE0BB0003368F8 /* LoginViewController.swift in Sources */,
 				E6E4015028ACF67D003368F8 /* AppDelegate.swift in Sources */,
+				E695CEDD28B207CF00C2CB62 /* FriendsViewController.swift in Sources */,
 				E6E4015228ACF67D003368F8 /* SceneDelegate.swift in Sources */,
 				E6E4016B28AD0341003368F8 /* ViewModel.swift in Sources */,
+				E6E4018A28AE43AA003368F8 /* UpdateLikesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

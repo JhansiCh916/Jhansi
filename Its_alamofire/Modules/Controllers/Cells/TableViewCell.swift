@@ -13,12 +13,7 @@ class TableViewCell: UITableViewCell ,CellConfigurable{
     @IBOutlet weak var postData: UILabel!
     @IBOutlet weak var numberOfLikes: UILabel!
     @IBOutlet weak var likeButton: UIButton!
-    lazy var loadingIndicator: UIActivityIndicatorView = {
-        let indicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.gray)
-        indicator.translatesAutoresizingMaskIntoConstraints = false
-        self.contentView.addSubview(indicator)
-        return indicator
-    }()
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -29,7 +24,13 @@ class TableViewCell: UITableViewCell ,CellConfigurable{
 
         // Configure the view for the selected state
     }
+    
     var tableViewCellViewModelObject : TableViewCellViewModel?
+    
+    @objc func likeButtonPressed(sender : UIButton) {
+        tableViewCellViewModelObject?.likeBtnPressed?()
+    }
+    
     func setup(viewModel: RowViewModel) {
         guard let viewModel = viewModel as? TableViewCellViewModel else {
             return
@@ -38,18 +39,14 @@ class TableViewCell: UITableViewCell ,CellConfigurable{
         userName.text = viewModel.userName
         postData.text = viewModel.postData
         numberOfLikes.text = String(viewModel.numberOfLikes)
-        viewModel.isLoading.addObserver { [weak self] (isLoading) in
-            if isLoading {
-                self?.loadingIndicator.startAnimating()
-            } else {
-                self?.loadingIndicator.stopAnimating()
-            }
+        likeButton.addTarget(self, action: #selector(likeButtonPressed), for: .touchUpInside)
+        if viewModel.likeStatus == true {
+            likeButton.setImage(UIImage(systemName: "hand.thumbsup.fill"), for: .normal)
+        }
+        else {
+            likeButton.setImage(UIImage(systemName: "hand.thumbsup"), for: .normal)
         }
         setNeedsLayout()
     }
-    override func prepareForReuse() {
-        super.prepareForReuse()
-        tableViewCellViewModelObject?.isLoading.removeObserver()
-    }
-
+    
 }
